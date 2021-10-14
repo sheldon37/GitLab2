@@ -12,7 +12,7 @@ import static org.hamcrest.Matchers.*;
  * Test of the Vocabulary class
  */
 public class VocabTest {
-                  
+
 
     @Test
     public void testConstructor()

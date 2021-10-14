@@ -17,6 +17,8 @@ public class Author {
     private Random rand;
     private String generatedText;
 
+    // This is from testBranch
+
     /**
      * Construct an author object to simulate the vocabulary usage
      * indicated by a sample text file.
@@ -130,5 +132,5 @@ public class Author {
         text.close();
         return results.toString();
     }
-
+//This is from testBranch
 }

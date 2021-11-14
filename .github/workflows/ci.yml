@@ -19,6 +19,9 @@ jobs:
     - name: Grant execute permission for gradlew
       run: chmod +x gradlew              
     - name: Build and test
+    - run: npm install
+    - run: npm run build
+    - run: npm test
     - name: Deploy
       uses: sheldon37/GitLab2
       with:

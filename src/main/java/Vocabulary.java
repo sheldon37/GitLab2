@@ -1,8 +1,9 @@
 
+
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Arrays;
 
 
 /**
@@ -45,10 +46,8 @@ public class Vocabulary {
             follow = new ArrayList<String>();
             followers.put (lastWord, follow);
         }
-        if (!follow.contains(word)) {
-	        follow.add(word);
-	        ++nPairs;
-        }
+        follow.add(word);
+        ++nPairs;
     }
 
     /**

@@ -1,4 +1,4 @@
-package imitation;
+
 
 
 import java.io.BufferedReader;
